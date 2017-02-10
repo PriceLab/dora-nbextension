@@ -1,0 +1,31 @@
+{
+  "name": "dora",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Domain of (Gene) Regulatory Analysis",
+  "author": "Paul Shannon",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PriceLab/dora.git"
+  },
+  "keywords": [
+    "jupyter",
+    "widgets",
+    "ipython",
+    "ipywidgets"
+  ],
+  "scripts": {
+    "prepublish": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "cytoscape": "^2.7.10",
+    "jupyter-js-widgets": "^2.0.12",
+    "underscore": "^1.8.3"
+  }
+}
